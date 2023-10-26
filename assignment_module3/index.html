@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Starter Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+    </style>
+  </head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" width="30" height="30" alt="">
+          Brandname
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item hidden-xs">
+              <a class="nav-link" id="phone" href="tel:0623757509">Call us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-6 col-md-8">
+        <h1 class="display-3" id="headline">From data to intelligence</h1>
+        <p class="p-3">We specialize in transforming (big) data into intelligence that is <mark>inspiring</mark> and <mark>comprehensible</mark> and facilitates well-informed decision making. Currently, we are concentrating on advanced data visualization and hands-on machine learning.</p>
+      </div>
+      <div class="col-lg-6 col-md-4">
+        <img src="images/data-illustration.jpeg" class="img-fluid bodyimage">
+      </div>
+    </div>
+    <div class="row gy-4">
+        <div class="col-md-6 col-lg-4">
+          <a href="ux-design.html" class="titlebox-link">
+            <div class="p-3 text-center titlebox">
+              <div class="titlebox-tag" id="ux">ux design</div>
+              <div id="titlebox-text">
+                <h2>Title 1</h2>
+                <p>Some text here</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      <div class="col-md-6 col-lg-4">
+         <div class="p-3 text-center titlebox">
+          <div class="titlebox-tag" id="dataviz">dataviz</div>
+          <div id="titlebox-text">
+            <h2>Title 1</h2>
+            <p>Some text here</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 text-center titlebox">
+          <div class="titlebox-tag" id="analysis">nlp modelling</div>
+          <div id="titlebox-text">
+            <h2>Title 1</h2>
+            <p>Some text here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-12 col-md-4">
+          <span id="footer-title">Contact</span><br>
+          e-mail: info@brandname.com <br>
+          mobile: +31 (0)6 00 00 00 00
+          <hr class="visible-xs">
+        </section>
+        <section id="hours" class="col-sm-12 col-md-4">
+          <span id="footer-title">Follow me</span><br>
+          <a href="https://www.facebook.com/" class="social-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg> Facebook<br>
+          </a>
+          <a href="https://www.linkedin.com" class="social-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg> LinkedIn
+          </a>
+          <hr class="visible-xs">
+        </section>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

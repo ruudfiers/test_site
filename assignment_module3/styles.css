@@ -1,0 +1,138 @@
+body {
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	background-color: #2a2b33;
+}
+
+h1 {
+
+	font-weight: 300;
+	color: blueviolet;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+img.bodyimage {
+	border-radius: 8px;
+	margin-bottom: 40px;
+}
+
+mark {
+	border-radius: 5px;
+}
+
+a.titlebox-link {
+	text-decoration: none;
+}
+
+.navbar {
+	font-weight: 400;
+	background-color: #3b3c45;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin-bottom: 40px;
+}
+
+.nav-link {
+	color: white;
+	text-align: center;
+	border-radius: 8px;
+	margin: 5px;
+}
+
+.nav-link:focus {
+	color: white;
+	background-color: blueviolet;
+}
+
+#navbar-active {
+	color: white;
+	background-color: blueviolet;
+}
+
+.nav-link:hover {
+	color: white;
+	box-shadow: 0px 0px 0px 1px blueviolet; inset;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	padding: 10px;
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: #2a2b33;
+}
+
+.p-3 {
+	color: white;
+	line-height: 2em;
+}
+
+.nav-link#phone {
+	box-shadow: 0px 0px 0px 1px blueviolet; inset;
+}
+
+button.navbar-toggler {
+	color: blueviolet;
+}
+
+@media (max-width: 576px) {
+	#headline{
+		text-align: center;
+	}
+}
+
+.titlebox {
+	height: 200px;
+	border-radius: 8px;
+	position: relative;
+	background-color: #3b3c45;
+}
+
+.titlebox:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.titlebox-tag {
+	background-color: blueviolet;
+	border-radius: 8px;
+	position: absolute;
+	color: white;
+	top: 0;
+	right: 0;
+	width: 100%;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#titlebox-text {
+	padding-top: 30px;
+}
+
+#ux {
+	background-color: #00b59d;
+}
+
+#analysis {
+	background-color: #0086e6;
+}
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #897ee0;
+}
+
+#footer-title {
+	font-weight: 700;
+}
+
+.social-links {
+	color: black;
+	text-decoration: none;
+}
